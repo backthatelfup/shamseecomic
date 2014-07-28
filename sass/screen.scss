@@ -4,6 +4,7 @@
 @import "solarized";
 @import "syntax";
 @import "font-awesome/font-awesome";
+@import "compass/layout/sticky-footer";
 
 // Or selectively include components
 // @import
@@ -50,9 +51,7 @@ p{
 	font-size: $body-font-size;
 	line-height: $body-line-height;
 	border-bottom: $body-paragraph-margin;
-	@media #{$small-only} {
-		font-size: $body-font-size - 2px;
-	}
+	margin-bottom: 10px;
 }
 
 strong{
@@ -121,7 +120,7 @@ article{
 
 .basic-alignment{
 	margin-bottom: 30px;
-	&.right, &.left{
+	&.right, &.left, &.center{
 		width: 50%;
 		display: inline-block;
 	}
@@ -130,6 +129,9 @@ article{
 	}
 	&.left{
 		text-align: left;
+	}
+	&.center{
+		text-align: center;
 	}
 }
 .pagination{
@@ -178,11 +180,12 @@ h1{
 
 aside h1, .page-header{
 	border-bottom: 3px solid $bottom-border-color;
+	border-top: 3px solid $bottom-border-color;
 }
 
 .page-header{
 	padding-bottom: 0px;
-	margin-bottom: 20px;
+	background-color: #ccc;
 	h1.page-title{
 		margin-bottom: 0;
 	}
@@ -218,25 +221,9 @@ aside{
 	padding-top: 30px;
 }
 
-/* formats footer at the bottom of the page */
+/* formats footer at the bottom of the page using Compass mixin */
 
-footer{
-	p{
-		font-size: $body-font-size - 2px;
-		padding-top: 30px;
-
-		@media #{$small-only} {
-			font-size: $body-font-size - 4px;
-		}
-		.copyright{
-			color: $header-font-color;
-			font-family: $header-font-family;
-			font-size: $body-font-size + 2px;
-			padding-bottom: 8px;
-			display: block;
-		}
-	}
-}
+@include sticky-footer(0px, "#main", "#article", "#footer");
 
 /* formats "MENU" text that appears for mobile nav menu */
 
@@ -395,3 +382,59 @@ code{
 	color: $subheader-font-color;
 }
 
+// ---- CUSTOM ---- //
+
+/* position logo */
+@media #{$medium-up} {
+  .logo { 
+  margin: 0 55px;
+  }
+}
+
+
+//// ---- BUTTONS
+
+// Creates button used for "info"
+.info {
+  @include button($padding: $button-tny, $bg: $primary-color, $radius: true, $full-width: false);
+  margin-left: 9px; 
+}
+
+.large.info {
+  margin-top: 20px; 
+}
+
+//Creates button used for "Buy Now" on front page
+.tiny {
+  @include button($padding: $button-tny, $bg: $primary-color, $radius: true, $full-width: false);
+  padding-right: 1.5rem;
+}
+
+// Styles Buy Now dropdown on front page
+.dropdown.button.tiny {
+  padding-right: 1.5rem;
+  padding-left: 1.0rem;
+}
+
+// Styles Buy Now dropdown more on front page
+.dropdown.button.tiny:before {
+  border-width: 0.375rem;
+  right: .5rem;
+  margin-top: -0.125rem;
+  background: invisible; //this is for the little triangle dropdown kajiger
+}
+
+//Creates button used for "Buy Now" on spotlights
+.sales-large {
+  @include button($padding: $button-lrg, $bg: $primary-color, $radius: true, $full-width: false);
+  width: 200px;
+  margin-top: 20px;
+}
+
+// Styles Buy Now dropdown more on spotlights
+.dropdown.button.sales-large:before {
+  border-width: 0.375rem;
+  right: 1.5rem;
+  margin-top: -0.125rem;
+  background: invisible; //this is for the little triangle dropdown kajiger
+}

@@ -1,0 +1,47 @@
+{% if site.fixed_navigation %}
+<div class="sticky" data-options="">
+{% endif %}
+{% if page.header_image %} <a href="{{ root_url }}/"><img src="{{ page.header_image }}" alt="{{ site.title }} banner image" title="{{ site.title }}" class="hide-for-large-up"></a> {% endif %}
+<nav>
+  <nav class="top-bar comic" data-topbar>
+
+    <!--Uncomment {{ site.title }}below if you would like a title area on the left side of the nav bar-->
+
+    <ul class="title-area comic">
+        <li>
+          <a href="http://www.backthatelfup.com/"><img src="/images/backthatelfup-logo.png" class="logo hide-for-small hide-for-medium" alt="Back That Elf Up logo"></a>
+        </li>
+        <li><a href="{{ root_url }}"><i class="fa fa-home fa-3x hide-for-large-up"></i></a></li>
+        <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+    </ul>
+
+
+    <section class="top-bar-section">
+
+      <ul class="left">
+
+          <li{% if page.url == '/index.html' %} class="active comic"{% endif %}><a href="{{ root_url }}/">Home</a></li>
+
+          <li{% if page.url == '/characters/index.html' %} class="active comic"{% endif %}><a href="{{ root_url }}/characters/">Characters</a></li>
+          
+          <li{% if page.url == '/a-fistful-of-lunars/index.html' %} class="active comic"{% endif %}><a href="{{ root_url }}/a-fistful-of-lunars/">Archives</a></li>
+          
+          <li{% if page.url == '/about/index.html' %} class="active comic"{% endif %}><a href="{{ root_url }}/about/">About</a></li>
+      </ul>
+      
+<ul class="right">
+      {% if site.tumblr %}
+          <a class="socials tumblr" href="http://{{ site.tumblr }}" title="Tumblr">
+            <i class="fa fa-2x fa-tumblr"> </i>
+          </a>
+      {% endif %}
+          <a class="rss socials" href="{{ site.subscribe_rss }}" title="subscribe via RSS">
+            <i class="fa fa-2x fa-rss"> </i>
+          </a>
+</ul>
+    </section>
+  </nav>
+</nav>
+{% if site.fixed_navigation %}
+</div>
+{% endif %}

@@ -3,11 +3,14 @@
 # ----------------------- #
 
 url: http://shamseecomic.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
-simple_search: https://www.google.com/search
-description:
+title: Shamsee Comic
+subtitle: A weekly fantasy comic
+author: Tristan J. Tarwater and Adrian Ricker
+description: A weekly fantasy comic about Shamsee and the thieves, rogues, and mischief he finds in the Valley of Ten Crescents.
+keywords:
+comic1:
+
+#simple_search: https://www.google.com/search
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -25,14 +28,16 @@ email:
 #    Jekyll & Plugins     #
 # ----------------------- #
 
+#gems: [thumbs]
+
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
 root: /
-permalink: /blog/:year/:month/:day/:title/
+permalink: /:categories/:title/
 source: source
 destination: public
 plugins: plugins
 code_dir: downloads/code
-category_dir: blog/categories
+category_dir: /
 markdown: rdiscount
 rdiscount:
   extensions:
@@ -41,7 +46,7 @@ rdiscount:
     - smart
 highlighter: pygments # default python pygments have been replaced by pygments.rb
 
-paginate: 10          # Posts per page on the blog index
+paginate: 1          # Posts per page on the blog index
 paginate_path: "posts/:num"  # Directory base for pagination URLs eg. /posts/2/
 recent_posts: 5       # Posts in the sidebar Recent Posts section
 excerpt_link: "Read on &rarr;"  # "Continue reading" link text at the bottom of excerpted articles
@@ -51,13 +56,22 @@ titlecase: true       # Converts page and post titles to titlecase
 
 # list each of the sidebar modules you want to include, in the order you want them to appear.
 # To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'
-default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html]
+# [asides/recent_posts.html, asides/github.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html]
+default_asides: [asides/recent_posts.html] 
 
 # Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
 # and add an array with the asides you want to use.
 # blog_index_asides:
 # post_asides:
 # page_asides:
+
+# Autogenerate thumbs for comics
+mini_magick:
+    gallery_1_thumbnail:
+      source: images/comics/
+      destination: ../source/images/comics/thumbs
+      commands:
+        - thumbnail: "182x280^"
 
 # ----------------------- #
 #   3rd Party Settings    #
@@ -70,11 +84,13 @@ github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
+twitter_user: backthatelfup
+twitter_card: false
 twitter_tweet_button: true
+twitter_image: http://www.shamseecomic.com/images/BTEUlogo-med-200x200.png #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
 
 # Google +1
-google_plus_one: false
+google_plus_one: true
 google_plus_one_size: medium
 
 # Google Plus Profile
@@ -91,11 +107,22 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name: backthatelfup
 disqus_show_comment_count: false
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-22568632-3
+
+google_universal_analytics_cookiedomain: shamseecomic.com
+
 
 # Facebook Like
-facebook_like: false
+facebook_like: true
+facebook_user: BackThatElfUp
+facebook_app_id: 212934732101925
+facebook_locale: en_US
+facebook_page: https://www.facebook.com/BackThatElfUp
+facebook_image:  http://www.shamseecomic.com/images/BTEUlogo-med-200x200.png #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
+
+# Tumblr
+tumblr: streetsmanshamsee.tumblr.com

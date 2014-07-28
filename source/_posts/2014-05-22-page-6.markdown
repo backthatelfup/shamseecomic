@@ -1,0 +1,11 @@
+---
+layout: post
+title: "page 6"
+date: 2014-05-22 18:26:47 -0700
+comments: true
+categories: a-fistful-of-lunars
+comic: A Fistful of Lunars
+thumbnail: /images/comics/thumbs/a-fistful-of-lunars-page-6.jpg
+---
+
+{% img comic-page /images/comics/a-fistful-of-lunars-page-6.jpg 'A Fistful of Lunars Page 6' 'A Fistful of Lunars Page 6'%}

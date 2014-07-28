@@ -1,29 +1,27 @@
 ---
-layout: default
----
+layout: page-comic
+sidebar: true
+sidebar_left: false
 
-<div class="blog-index">
-  {% assign index = true %}
-  {% for post in paginator.posts %}
+---
+  <div class="blog-index">
+  {% assign post = site.posts.first %}
   {% assign content = post.content %}
-    <article>
-      {% include article.html %}
-    </article>
-  {% endfor %}
-  <div class="pagination">
-    {% if paginator.next_page %}
-      <a class="prev" href="{{paginator.next_page_path}}">&larr; Older</a>
-    {% endif %}
-    <a href="/blog/archives">Blog Archives</a>
-    {% if paginator.previous_page %}
-    <a class="next" href="{{paginator.previous_page_path}}">Newer &rarr;</a>
-    {% endif %}
-  </div>
-</div>
-<aside class="sidebar">
-  {% if site.blog_index_asides.size %}
-    {% include_array blog_index_asides %}
-  {% else %}
-    {% include_array default_asides %}
+  <h1 class="comic-title text-center">
+  {% if post.title %}
+   <a href="{{ root_url }}{{ post.url }}"> {{ site.comic1 }} {{ post.title }}</a>
   {% endif %}
-</aside>
+  </h1>
+<article>
+   <div class="entry-content column"><div class="pagdiv column">
+        <div>
+          <a class="basic-alignment left comic-pagination" href="{{ root_url }}/a-fistful-of-lunars/page-0/" title="Previous Post: {{page.previous.title}}"> <i class="fa fa-arrow-left">&nbsp; First Page </i> </a>
+        </div>
+        <div>
+          <a class="basic-alignment right comic-pagination btn-group" href="{{ root_url }}/a-fistful-of-lunars/" title="Archives"> <i class="fa">Archives</i> <i class="fa fa-arrow-right"></i></a>
+        </div>
+      
+     </div> <a href="{{ page.link }}">{{ content }}</a> <div class="pagdiv column">
+     </div></div>
+</article>
+  </div>

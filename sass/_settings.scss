@@ -4,23 +4,26 @@ $column-gutter: 40px;
 $total-columns: 12;
 
 // image display properties
-$boxed_images: true; /* true if you want your images to have polaroid effects, false if not */
+$boxed_images: false; /* true if you want your images to have polaroid effects, false if not */
 
 // colors
-$body-bg: #fff !default; /* white by default */
-$primary-color: #008CBA !default; /* blue by default */
-$secondary-color: #e7e7e7 !default; /* light gray by default */
-$topbar-bg: #111; /* almost black by default */
+$primary-color: #43ac6a !default; /* #008CBA blue by default */
+$secondary-color: #363636 !default; /* #e7e7e7 */
+$tertiary-color: #6b6b6b !default;
+$fourth-color: #bed477 !default;
+$body-bg: #eee !default; /* white by default */
 $bottom-border-color: #cccccc;
+$comic-color: #da6c4b !default;
+
 // font colors
 $body-font-color: #222 !default; /* almost black by default */
-$header-font-color: #af4976; /* magenta by default */
+$header-font-color: scale-color($secondary-color, $lightness: -15%);
 $subheader-font-color: scale-color($body-font-color, $lightness: 35%); /* medium gray by default */ 
 $icon-color: #777777; /* medium-light gray by default */
 
 // body font properties
 $body-font-family: 'Roboto', sans-serif !default;
-$body-font-size: 18px !default;
+$body-font-size: 16px !default;
 $body-font-weight: 300 !default;
 $body-font-style: normal !default;
 $body-line-height: 1.45 !default;
@@ -39,14 +42,363 @@ $anchor-font-color: $primary-color;
 $anchor-font-color-hover: scale-color($primary-color, $lightness: -25%);
 
 // navigation bar
-$topbar-height: 45px;
+$topbar-height: 100px;
 $topbar-link-font-size: 14px;
 $topbar-link-letterspacing: 0.5px;
 $topbar-link-hover-lightness: -10%;
-$topbar-link-bg-hover: #2c2c2c;
+$topbar-link-bg-hover: scale-color($secondary-color, $lightness: 10%);
 $topbar-link-color: #fff;
+$topbar-bg: $secondary-color; /* #111 almost black by default */
+//$topbar-link-color-hover: ($primary-color);
+
 
 // border radii
 $global-radius: 3px !default;
 $global-rounded: 1000px !default;
 
+// progress meters
+$progress-meter-success-color: scale-color($secondary-color, $lightness: 80%);
+
+// We use these to control the border styles
+$progress-bar-border-color: $secondary-color;
+$progress-bar-border-size: 1px;
+$progress-bar-border-style: solid;
+$progress-bar-border-radius: $global-radius;
+
+
+// ==== ==== CUSTOM ==== ==== //
+
+// -- topbar / navigation
+
+// Sets alternate color for drop-down menu "headers" (label that's not a link) The Valle of Ten Crescents, for example.
+.top-bar-section li .ddheader {
+  color: scale-color($secondary-color, $lightness: 75%); 
+  font-size: 0.825rem;
+  text-transform: uppercase;
+  line-height: 1;
+  white-space: nowrap;
+  padding: 12px 10px;
+  background-color: scale-color($secondary-color, $lightness: -25%);
+}
+
+// Sets height of navbar dropdowns so they're not fucking huge
+.top-bar-section ul li .ddtitle>a {
+ height: 50px;
+ line-height: 50px !important;
+}
+
+.top-bar-section ul{
+  background-color: $secondary-color !important; 
+}
+
+// Sets background color of navbar dropdowns
+.top-bar-section .dropdown li a {
+  background: #333333 !important;
+}
+
+// Sets hover color ov navbar dropdowns
+.top-bar-section .dropdown li a:hover {
+  background: ($anchor-font-color-hover) !important;
+}
+
+// Styles topbar for mobile screens
+@media only screen and (max-width: 906px) {
+  .top-bar.comic{
+    height: 50px !important;
+  }
+  .top-bar.comic.expanded{
+    height: auto !important;
+  }
+  .top-bar .title-area .comic{
+    height: 50px;
+  }
+}
+
+// -- uheader (newsletter header under 'top-bar')
+.uheader {
+  padding-top: 7px;
+  margin-bottom: 10px;
+  background-color: $tertiary-color;
+}
+
+.socials {
+  padding-left: 20px;
+  color: #fff;
+  line-height: 6.3em;
+  float: right;
+}
+
+.twitter {
+  margin-right: 50px; 
+}
+
+.twitter:hover {
+  color: #00aced;
+}
+
+.facebook:hover {
+  color: #3b5998; 
+}
+
+.tumblr {
+  margin-right: 50px; 
+}
+
+.tumblr:hover {
+  color: #32506d;
+}
+
+.rss:hover {
+  color: #ff6600;
+}
+
+@media only screen and (max-width: 906px) {
+  .socials{
+    background-color: $secondary-color;
+  }
+  
+  .twitter {
+    line-height: 20px;
+    margin-right: 30px;
+  }
+  
+  .facebook {
+    line-height: 20px; 
+  }
+  
+   .tumblr {
+    line-height: 20px;
+    margin-right: 30px;
+  }
+   .rss {
+    line-height: 20px; 
+  }
+  
+}
+
+// -- MAILCHIMP SIGN UP FORM
+
+// Sets the color of the Mailchimp widget
+#mc_embed_signup {
+  background: #f3f3f3 !important;
+  clear: left;
+}
+
+// Styles the button
+#mc_embed_signup .button {
+  background-color: $primary-color !important;
+  font-size: 75% !important;
+}
+
+// Makes the email input full width
+#mc_embed_signup input.email {
+  width: 100% !important;
+}
+
+// Yep
+#mce-EMAIL {
+  margin: 0 15px;
+  float: left;
+  width: 20em;
+}
+
+@media only screen and (max-width: 768px) {
+  #mce-EMAIL{
+    margin: 0 0 10px 0;
+    width: 100%;
+  }
+  
+  #mce-FNAME {
+    width: 50% !important;
+  }
+  
+  #mc-embedded-subscribe.button{
+    width: 40% !important;
+  }
+}
+
+.newsletter {
+  background-color: #eee;
+  margin-bottom: 20px;
+}
+
+// Styles the "first name" input field
+#mce-FNAME {
+  float: left;
+  width: 11em;
+  margin: 0 15px 0 0;
+}
+
+// Keeps the text centered in the subscribe button
+#mc-embedded-subscribe.button{
+  float: left;
+  width: 8em;
+  margin-bottom: 0px;
+  padding-bottom: 0.5rem;
+}
+
+// -- Sidebar / asides
+
+// Title of WiP for WiP widget button area
+p.wip-title {
+  font-size: 75%;
+  font-style: italic;
+  margin-bottom: 0px;
+}
+
+// Status of WiP for WiP aside
+p.wip-status {
+  font-size: 75%;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+// Universl use padding-bottom
+.pb10 {
+  padding-bottom: 10px; 
+}
+
+.m10 {
+  margin: 10px; 
+}
+
+.m20 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.ml-15 {
+  margin-left: -15px; 
+}
+
+// Shrink the spacing between list items
+ul {
+  margin-bottom: 0px !important; 
+}
+
+// Layout of blurb on single book page.
+.spotlight-blurb {
+ padding: 0px 25px 0px 25px; 
+}
+
+// Adds border to comic image on every post
+.comic-page {
+  border-style: solid;
+  border-color: $secondary-color;
+}
+
+// Styles the prev/next above each comic
+@media only screen and (max-width: 768px) {
+  .comic-pagination{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+}
+
+.comic-pagination {
+  color: #fff;
+  height: 30px;
+  background-color: $secondary-color; 
+  margin-bottom: 0px !important;
+  padding-top: 6px;
+  padding-left: 35px;
+  padding-right: 35px;
+  display: inline-block;
+}
+
+
+.comic-pag-div {
+  width: 30%;
+  text-align: center; 
+}
+
+.comic-pag-div.first{
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+// Makes prev/next change color on hover
+i.fa-arrow-left:hover{
+  color: $comic-color; 
+}
+
+a.comic-pagination:hover{
+  color: $comic-color; 
+}
+
+// Used to color 'Recent Posts' widget links
+li a.comic{
+  color: $comic-color !important; 
+}
+
+li a.comic:hover{
+  color: scale-color($comic-color, $lightness: 35%) !important;
+}
+
+// Colors navbar for comics pages different from Main site
+  .top-bar-section li.active.comic:not(.has-form) a:not(.button):hover {
+    background: scale-color($comic-color, $lightness: 25%) !important;
+}
+
+// Colors comic title for main page
+h1.comic-title a{
+  color:  $comic-color !important;
+}
+
+h1.comic-title a:hover{
+  color: scale-color($comic-color, $lightness: 35%) !important;  
+}
+
+.top-bar-section li.active.comic:not(.has-form) a:not(.button) {
+padding: 0 33.33333px;
+line-height: 100px;
+color: #fff;
+background: $comic-color !important;
+}
+
+.pagdiv {
+  background-color: $secondary-color;
+  margin-top: -10px;
+}
+
+// Indent unordered list items when not using a marker
+ul.no-bullet {
+  margin-left: 20px !important; 
+}
+
+// Sharing / social buttons
+.sharing {
+  background-color: #ffd0d0;
+  text-align: center;
+  margin-top: 0px !important;
+}
+
+.copyright{
+  background-color: #6b6b6b;
+  color: $header-font-color;
+  font-size: $body-font-size - 3px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  display: block;
+}
+
+figure {
+  margin: 0px !important;
+  border: solid;
+  border-width: 1px;
+}
+
+figcaption {
+  background-color: $tertiary-color;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+figcaption:hover {
+  color: $comic-color;
+}
+
+// Set breakpoint for top-bar so it uses mobile version for med. screens
+$topbar-breakpoint: 906px; // Change to 9999px for always mobile layout
+$topbar-media-query: "only screen and (min-width: #{$topbar-breakpoint})" !default;

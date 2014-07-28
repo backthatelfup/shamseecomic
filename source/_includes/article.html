@@ -1,13 +1,8 @@
 {% unless page.no_header %}
   <header>
-    {% if index %}
-      <h1 class="entry-title"><a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h1>
-    {% else %}
-      <h1 class="page-title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
-    {% endif %}
+   <h1 class="text-center">{{ page.comic }} {{ page.title }}</h1>
     {% unless page.meta == false %}
       <p class="meta">
-        {% include post/date.html %}{{ time }}
         {% if site.disqus_short_name and page.comments != false and post.comments != false and site.disqus_show_comment_count == true %}
            | <a href="{% if index %}{{ root_url }}{{ post.url }}{% endif %}#disqus_thread"
              data-disqus-identifier="{% if post.meta.disqus_id %}{{ post.meta.disqus_id }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">Comments</a>
@@ -16,14 +11,34 @@
     {% endunless %}
   </header>
 {% endunless %}
-{% if index %}
-  <div class="entry-content">{{ content | excerpt }}</div>
-  {% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
-  {% if excerpted == 'true' %}
-    <footer>
-      <a rel="full-article" class="button tiny radius" href="{{ root_url }}{{ post.url }}">{{ site.excerpt_link }}</a>
-    </footer>
-  {% endif %}
-{% else %}
-<div class="entry-content">{{ content }}</div>
-{% endif %}
+  
+<div class="entry-content column"><div class="pagdiv column">
+    {% if page.previous.url %}
+        <div class="left comic-pag-div">
+          <a class="left comic-pagination" href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}"> <i class="fa fa-arrow-left">&nbsp; Previous </i> </a>
+        </div>
+      {% endif %}
+      {% if page.comic %}
+        <div class="left comic-pag-div first">
+          <a class="text-center comic-pagination" href="{{ root_url }}/comics/a-fistful-of-lunars/page-0/" title="Previous Post: {{page.previous.title}}"><strong> First Page </strong></a>
+        </div>
+      {% endif %}
+      {% if page.next.url %}
+        <div class="right comic-pag-div">
+          <a class="right comic-pagination btn-group" href="{{page.next.url}}" title="Next Post: {{page.next.title}}"> <i class="fa">Next</i> <i class="fa fa-arrow-right"></i></a>
+        </div>
+      
+      {% endif %}
+     </div> <a href="{{ page.next.url }}">{{ content }}</a> <div class="pagdiv column">
+    {% if page.previous.url %}
+        <div>
+          <a class="basic-alignment left comic-pagination" href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}"> <i class="fa fa-arrow-left">&nbsp; Previous</i> </a>
+        </div>
+      {% endif %}
+      {% if page.next.url %}
+        <div>
+          <a class="basic-alignment right comic-pagination btn-group" href="{{page.next.url}}" title="Next Post: {{page.next.title}}"> <i class="fa">Next</i> <i class="fa fa-arrow-right"></i></a>
+        </div>
+      {% endif %}
+     </div></div>
+
