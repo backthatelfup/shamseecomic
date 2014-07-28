@@ -9,7 +9,7 @@ footer: true
 
 <div class="row">
    <div class="small-12 medium-4 text-center left">
-    <img src="/images/comics/ComingSoon-small.jpg" alt="The Misadventures of Streetsman Shamsee, coming soon" class="left">
+    <img src="/images/comics/A-fistful-of-lunars.jpg" alt="A Fistful of Lunars cover" class="left">
   </div>
    <div class="small-12 medium-8 spotlight-blurb right">
    <h1>Shamsee</h1>
