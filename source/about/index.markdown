@@ -8,8 +8,10 @@ footer: true
 ---
 
 <div class="row">
+  <div>
    <div class="small-12 medium-4 text-center right">
-    <img src="/images/comics/thumbs/A-fistful-of-lunars.jpg" alt="A Fistful of Lunars cover" class="left">
+    <img src="/images/comics/thumbs/A-fistful-of-lunars.jpg" alt="A Fistful of Lunars cover">
+   </div>
   </div>
    <div class="small-12 medium-8 spotlight-blurb right">
    <h2>About the comic</h2>
