@@ -25,5 +25,6 @@ footer: true
 <h2>About the artist</h2>
 <p>Adrian Ricker is an illustrator and comic artist native to the Portland area. He enjoys creating worlds ranging from fantastical to borderline smutty, and has done a variety of short comics including Gwen and the Green Thief. His favorite mythical creature is the Tengu. You can follow Adrian on <a href="http://adrianricker.tumblr.com/" target="_blank">Tumblr</a>, or at <a href="http://www.adrianricker.com/" target="_blank">adrianricker.com</a>.</p>
 <br />
+<br />
    </div>
   </div>
