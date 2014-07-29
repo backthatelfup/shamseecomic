@@ -7,7 +7,7 @@ $total-columns: 12;
 $boxed_images: false; /* true if you want your images to have polaroid effects, false if not */
 
 // colors
-$primary-color: #43ac6a !default; /* #008CBA blue by default */
+$primary-color: #da6c4b !default; /* #008CBA blue by default */
 $secondary-color: #363636 !default; /* #e7e7e7 */
 $tertiary-color: #6b6b6b !default;
 $fourth-color: #bed477 !default;
@@ -67,6 +67,10 @@ $progress-bar-border-radius: $global-radius;
 
 
 // ==== ==== CUSTOM ==== ==== //
+
+.primary {
+  background-color: $primary-color;
+}
 
 // -- topbar / navigation
 
@@ -215,6 +219,11 @@ $progress-bar-border-radius: $global-radius;
   #mc-embedded-subscribe.button{
     width: 40% !important;
   }
+}
+
+.updates {
+  text-align: center;
+  color: white;
 }
 
 .newsletter {
