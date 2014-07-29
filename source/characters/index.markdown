@@ -51,8 +51,7 @@ footer: true
 <br />
 <br />
 
-<img src="/images/characters/Hands-Bio.jpg" alt="Hands. He licks them." title="Hands. He licks them." class="left">
-<img src="/images/characters/Faces-Bio.jpg" alt="Faces. He likes kisses." title="Faces. He likes kisses." class="left">
+<img src="/images/characters/Hands-and-Faces.jpg" alt="Hands and Faces. The dogs." class="left">
 <h3>Hands and Faces</h3>
 <p>Two dogs in the Blighter’s canine army, these canines help the Blighter maintain his terrifying persona. However, behind closed doors they are wonderful, playful animals, named for their tendency to enthusiastically lick the extremity they are named after. Well taken care of, they’ll do anything for their master, especially since doing so means TUMMY RUBS.</p>
 
