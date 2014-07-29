@@ -19,10 +19,11 @@ footer: true
 </div>
 <div class="small-12 spotlight-blurb right">
 <h2>About the writer</h2>
-   <p>Tristan J. Tarwater is a writer of fantasy prose, comics and the occasional RPG bit. Born and raised in New York City, she now resides in Portland, OR and considers it her home. The Valley of Ten Crescents is her first fantasy series and Shamsee is her first comic. You can find out more about her projects at <a href="http://www.backthatelfup.com">backthatelfup.com</a>. Her next RPG character will probably be an elf.</p>
+   <p>Tristan J. Tarwater is a writer of fantasy prose, comics and the occasional RPG bit. Born and raised in New York City, she now resides in Portland, OR and considers it her home. The Valley of Ten Crescents is her first fantasy series and Shamsee is her first comic. You can find out more about her projects at <a href="http://www.backthatelfup.com" target="_blank">backthatelfup.com</a>. Her next RPG character will probably be an elf.</p>
 <br />
    
 <h2>About the artist</h2>
-<p>Adrian Ricker is an illustrator and comic artist native to the Portland area. He enjoys creating worlds ranging from fantastical to borderline smutty, and has done a variety of short comics including Gwen and the Green Thief. His favorite mythical creature is the Tengu. You can follow Adrian on <a href="http://adrianricker.tumblr.com/">Tumblr</a>, or at <a href="http://www.adrianricker.com/">adrianricker.com</a>.</p>
+<p>Adrian Ricker is an illustrator and comic artist native to the Portland area. He enjoys creating worlds ranging from fantastical to borderline smutty, and has done a variety of short comics including Gwen and the Green Thief. His favorite mythical creature is the Tengu. You can follow Adrian on <a href="http://adrianricker.tumblr.com/" target="_blank">Tumblr</a>, or at <a href="http://www.adrianricker.com/" target="_blank">adrianricker.com</a>.</p>
+<br />
    </div>
   </div>

@@ -409,6 +409,13 @@ figcaption:hover {
   color: $comic-color;
 }
 
+figcaption.fanart{
+  background-color: white;
+  color: #fff;
+  text-transform: none;
+  font-weight: bold;
+}
+
 // Set breakpoint for top-bar so it uses mobile version for med. screens
 $topbar-breakpoint: 906px; // Change to 9999px for always mobile layout
 $topbar-media-query: "only screen and (min-width: #{$topbar-breakpoint})" !default;

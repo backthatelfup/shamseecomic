@@ -13,14 +13,14 @@ footer: true
   <div class="small-4 column text-center">
 	<p>
 	<figure>
-	<a href="{{ root_url }}/images/fanart/CAmorgan.jpg"><img src="{{ root_url }}/images/fanart/thumbs/CAmorgan.jpg" align="center" /><figcaption class="text-center"><a href="http://tdugn.com/">Art by C.A. Morgan</a></figcaption></a>
+	<a href="{{ root_url }}/images/fanart/CAmorgan.jpg"><img src="{{ root_url }}/images/fanart/thumbs/CAmorgan.jpg" align="center" /><figcaption class="fanart text-center"><a href="http://tdugn.com/" target="_blank">Art by C.A. Morgan</a></figcaption></a>
 	</figure>
 	</p>
   </div>
   <div class="small-4 column text-center">
 	<p>
 	<figure>
-	<a href="{{ root_url }}/images/fanart/SmallBoss.jpg"><img src="{{ root_url }}/images/fanart/thumbs/SmallBoss.jpg" align="center" /><figcaption class="text-center"><a href="http://smallartist.tumblr.com/">Art by Small Boss</a></figcaption></a>
+	<a href="{{ root_url }}/images/fanart/SmallBoss.jpg"><img src="{{ root_url }}/images/fanart/thumbs/SmallBoss.jpg" align="center" /><figcaption class="fanart text-center"><a href="http://smallartist.tumblr.com/" target="_blank">Art by Small Boss</a></figcaption></a>
 	</figure>
 	</p>
   </div>
