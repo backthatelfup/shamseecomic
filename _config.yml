@@ -73,6 +73,14 @@ mini_magick:
       commands:
         - thumbnail: "182x280^"
 
+# Autogenerate thumbs for fanart        
+mini_magick:
+    gallery_2_thumbnail:
+      source: images/fanart/
+      destination: ../source/images/fanart/thumbs
+      commands:
+        - thumbnail: "182x280^"
+
 # ----------------------- #
 #   3rd Party Settings    #
 # ----------------------- #
