@@ -22,7 +22,7 @@ footer: true
 <br />
 <br />
 
-<img src="/images/characters/Gia-Bio.jpg" alt="Gia" class="left">
+<img src="/images/characters/Gia-Bio.jpg" alt="Gia" title="She's so cute" class="left">
 <h3>Gia</h3>
 <p>A working girl, Gia has employed herself with Mam Sheri’s girls. Gia has no problem mixing business with pleasure and has a steady line of clients. A sometimes friend, sometimes trader of purses with Shamsee, she knows she can get a favor out of him when it comes down to it. Her favorite foods are stuffed buns, especially if they have mushroom filling. Gia has a younger sister she sends money home to and she goes to visit her family every religious holiday.</p>
 <br />
@@ -37,7 +37,7 @@ footer: true
 <h3>Skunky</h3>
 <p>With a head for numbers and a fair dose of practicality, Skunky is the Blighter’s younger sister as well as his accountant. Her position has garnered her the respect of her brother and his associates but Skunky knows there’s more to life than twisting arms and smashing heads. Too bad her brother’s overprotective nature keeps her from experiencing much else. When she doesn’t have her nose in a book, Skunky is out walking the streets of her brother’s territory, a kinder presence the people appreciate. She’s fond of Shamsee partially for his enthusiasm in bed, partially because he doesn’t care about titles.</p>
 
-<img src="/images/characters/Berin-Bio.jpg" alt="Berin" class="left">
+<img src="/images/characters/Berin-Bio.jpg" alt="Berin" title="They call him sexy-eyes" class="left">
 <h3>Berin</h3>
 <p>Part henchmen, part younger brother doing what he’s told, Berin’s doesn’t look the type to wrangle with gangsters. However, he does have a bit of a mean streak and is willing to perform bloody work at his brother’s behest if needed. A bit of wanderer with no plans, Berin falls into his brother’s plots when he’s in town. A fan of music and art, Berin spends his free time in dance halls and music clubs, especially if it’s gentlemen’s night.</p>
 <br />

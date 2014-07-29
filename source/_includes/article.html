@@ -1,6 +1,5 @@
 {% unless page.no_header %}
   <header>
-   <h1 class="text-center">{{ page.comic }} {{ page.title }}</h1>
     {% unless page.meta == false %}
       <p class="meta">
         {% if site.disqus_short_name and page.comments != false and post.comments != false and site.disqus_show_comment_count == true %}
