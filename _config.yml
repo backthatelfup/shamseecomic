@@ -95,7 +95,7 @@ github_skip_forks: true
 twitter_user: backthatelfup
 twitter_card: false
 twitter_tweet_button: true
-twitter_image: http://www.shamseecomic.com/images/BTEUlogo-med-200x200.png #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
+twitter_image: http://www.shamseecomic.com/images/comics/thumbs/A-fistful-of-lunars.jpg #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
 
 # Google +1
 google_plus_one: true
@@ -128,7 +128,7 @@ facebook_user: BackThatElfUp
 facebook_app_id: 212934732101925
 facebook_locale: en_US
 facebook_page: https://www.facebook.com/BackThatElfUp
-facebook_image:  http://www.shamseecomic.com/images/BTEUlogo-med-200x200.png #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
+facebook_image:  http://www.shamseecomic.com/images/comics/thumbs/A-fistful-of-lunars.jpg #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
 
 # Tumblr
 tumblr: streetsmanshamsee.tumblr.com
