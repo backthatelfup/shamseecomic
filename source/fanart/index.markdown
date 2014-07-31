@@ -24,6 +24,13 @@ footer: true
 	</figure>
 	</p>
   </div>
+  <div class="small-4 column text-center">
+	<p>
+	<figure>
+	<a href="{{ root_url }}/images/fanart/Michelle.jpg"><img src="{{ root_url }}/images/fanart/thumbs/Michelle.jpg" align="center" /><figcaption class="fanart text-center"><a href="http://reckstarcomic.com//" target="_blank">Art by Michelle Nguyen</a></figcaption></a>
+	</figure>
+	</p>
+  </div>
 
 </div>
 </div>
