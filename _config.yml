@@ -65,16 +65,24 @@ default_asides: [asides/update_schedule.html]
 # post_asides:
 # page_asides:
 
+## Thumbnailer taken from https://github.com/zroger/jekyll-minimagick
+
 # Autogenerate thumbs for comics
 mini_magick:
+
+    gallery_0_thumbnail:
+      source: images/comics/FullRezComics/
+      destination: ../source/images/comics/
+      commands:
+        - thumbnail: "748x1156^"
+
     gallery_1_thumbnail:
       source: images/comics/
       destination: ../source/images/comics/thumbs
       commands:
         - thumbnail: "182x280^"
 
-# Autogenerate thumbs for fanart        
-mini_magick:
+#Autogenerate thumbs for fanart        
     gallery_2_thumbnail:
       source: images/fanart/
       destination: ../source/images/fanart/thumbs

@@ -55,12 +55,11 @@ end
 #######################
 
 desc "Generate jekyll site"
-task :generate do
+task :generate => [:optimizeimages]
   raise "### You haven't set anything up yet. First run `rake install` to set up an Octopress theme." unless File.directory?(source_dir)
   puts "## Generating Site with Jekyll"
   system "compass compile --css-dir #{source_dir}/stylesheets"
   system "jekyll build"
-end
 
 desc "Watch the site and regenerate when it changes"
 task :watch do
