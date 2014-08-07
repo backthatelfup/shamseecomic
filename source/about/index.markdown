@@ -21,6 +21,9 @@ footer: true
 <h3 class="subheader">Updates every Wednesday</h3>
 <p>A webcomic and graphic novel about unlucky rogues, conniving gangsters and an underworld full of big plans, bigger risks and bloody consequences.</p> 
 <p>Follow Shamsee through back alleys and tough situations in his quest for A Fistful of Lunars!</p>
+<br />
+<p>The first chapter, 'A Fistful of Lunars' is 105 pages long and is completely finished. You can check out the Kickstarter to get it now or keep coming back every week for the newest page.</p>
+
 </div>
 
   <hr>
