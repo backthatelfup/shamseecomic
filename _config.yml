@@ -70,12 +70,6 @@ default_asides: [custom/asides/update_schedule.html, custom/asides/kickstarter.h
 # Autogenerate thumbs for comics
 mini_magick:
 
-    gallery_0_thumbnail:
-      source: images/comics/FullRezComics/
-      destination: ../source/images/comics/
-      commands:
-        - thumbnail: "748x1156^"
-
     gallery_1_thumbnail:
       source: images/comics/
       destination: ../source/images/comics/thumbs
