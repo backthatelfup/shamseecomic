@@ -234,6 +234,7 @@ task :deploy do
   # Apply minification tasks
   Rake::Task[:minify_css].execute
   #Rake::Task[:minify_js].execute
+  Rake::Task[:minify_ojs].execute
   Rake::Task[:minify_html].execute
   
   Rake::Task[:copydot].invoke(source_dir, public_dir)
@@ -547,6 +548,19 @@ task :minify_js do
   puts "## Minifying JS"
   compressor = YUI::JavaScriptCompressor.new
   Dir.glob("#{public_dir}/**/*.js").each do |name|
+    puts "Minifying #{name}"
+    input = File.read(name)
+    output = File.open("#{name}", "w")
+    output << compressor.compress(input)
+    output.close
+  end
+end
+
+desc "Minify Octopress JS"
+task :minify_ojs do
+  puts "## Minifying Octopress JS"
+  compressor = YUI::JavaScriptCompressor.new
+  Dir.glob("#{public_dir}/javascripts/octopress.js").each do |name|
     puts "Minifying #{name}"
     input = File.read(name)
     output = File.open("#{name}", "w")
