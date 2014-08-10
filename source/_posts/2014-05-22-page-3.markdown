@@ -8,4 +8,5 @@ comic: A Fistful of Lunars
 thumbnail: /images/comics/thumbs/a-fistful-of-lunars-page-3.jpg
 ---
 
-{% img comic-page /images/comics/a-fistful-of-lunars-page-3.jpg 'A Fistful of Lunars Page 3' 'A Fistful of Lunars Page 3'%}
+<img title ="Shamsee: A Fistful of Lunars page 3" alt="Shamsee: A Fistful of Lunars page 3" data-interchange="[/images/comics/a-fistful-of-lunars-page-3.jpg, (default)], [/images/comics/med/a-fistful-of-lunars-page-3.jpg, (med)], [/images/comics/small/a-fistful-of-lunars-page-3.jpg, (small)]">
+<noscript><img title ="Shamsee: A Fistful of Lunars page 3" alt="Shamsee: A Fistful of Lunars page 3" src="/images/comics/a-fistful-of-lunars-page-3.jpg"></noscript>
