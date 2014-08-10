@@ -82,7 +82,7 @@ mini_magick:
       source: images/comics/
       destination: ../source/images/comics/small
       commands:
-        - thumbnail: "360x551^"
+        - thumbnail: "450x689^"
 
 # Create images for "medium" screen breakpoints
     gallery_3_thumbnail:
