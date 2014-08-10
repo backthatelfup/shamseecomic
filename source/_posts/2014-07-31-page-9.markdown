@@ -2,15 +2,15 @@
 layout: post
 title: "page 9"
 date: 2014-08-06 09:09:01 -0700
-comments: true
-sharing: 
+comments: false
+sharing: false
 categories: a-fistful-of-lunars
 comic: A Fistful of Lunars
-thumbnail: /images/comics/thumbs/a-fistful-of-lunars-page-9.jpg
+thumbnail: /images/comics/thumbs/a-fistful-of-lunars-page-9.png
 keywords: 
 description: 
 facebook_type: 
-facebook_image: /images/comics/thumbs/a-fistful-of-lunars-page-9.jpg
+facebook_image: /images/comics/thumbs/a-fistful-of-lunars-page-9.png
 ---
-<img title ="Shamsee: A Fistful of Lunars page 9" alt="Shamsee: A Fistful of Lunars page 9" data-interchange="[/images/comics/a-fistful-of-lunars-page-9.jpg, (default)], [/images/comics/med/a-fistful-of-lunars-page-9.jpg, (med)], [/images/comics/small/a-fistful-of-lunars-page-9.jpg, (small)]">
-<noscript><img title ="Shamsee: A Fistful of Lunars page 9" alt="Shamsee: A Fistful of Lunars page 9" src="/images/comics/a-fistful-of-lunars-page-9.jpg"></noscript>
+<img title ="Shamsee: A Fistful of Lunars page 9" alt="Shamsee: A Fistful of Lunars page 9" data-interchange="[/images/comics/a-fistful-of-lunars-page-9.png, (default)], [/images/comics/small/a-fistful-of-lunars-page-9.png, (small)]">
+<noscript><img title ="Shamsee: A Fistful of Lunars page 9" alt="Shamsee: A Fistful of Lunars page 9" src="/images/comics/a-fistful-of-lunars-page-9.png"></noscript>

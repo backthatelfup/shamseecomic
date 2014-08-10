@@ -473,7 +473,7 @@ namespace :optimizeimages do
       when 'gif'
         `gifsicle -O2 #{f} > #{f}.n`
       when 'png'
-        `pngcrush -q -rem alla -reduce -brute #{f} #{f}.n`
+        `pngcrush -q -rem alla -reduce -brute  #{f} #{f}.n`
       when 'jpg'
         `jpegtran -copy none -optimize -perfect -progressive #{f} > #{f}.p`
         prog_size = File.size?("#{f}.p")

@@ -83,13 +83,6 @@ mini_magick:
       destination: ../source/images/comics/small
       commands:
         - thumbnail: "450x689^"
-
-# Create images for "medium" screen breakpoints
-    gallery_3_thumbnail:
-      source: images/comics/
-      destination: ../source/images/comics/med
-      commands:
-        - thumbnail: "720x1099^"
         
 #Autogenerate thumbs for fanart        
     gallery_4_thumbnail:
@@ -111,11 +104,11 @@ github_skip_forks: true
 # Twitter
 twitter_user: backthatelfup
 twitter_card: false
-twitter_tweet_button: true
+twitter_tweet_button: false
 twitter_image: http://www.shamseecomic.com/images/comics/A-fistful-of-lunars.jpg #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
 
 # Google +1
-google_plus_one: true
+google_plus_one: false
 google_plus_one_size: medium
 
 # Google Plus Profile
@@ -132,7 +125,7 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name: backthatelfup
+#disqus_short_name: backthatelfup
 disqus_show_comment_count: false
 
 # Google Analytics
@@ -140,7 +133,7 @@ google_universal_analytics: UA-53303028-1
 google_universal_analytics_cookiedomain: auto
 
 # Facebook Like
-facebook_like: true
+facebook_like: false
 facebook_user: BackThatElfUp
 facebook_app_id: 212934732101925
 facebook_locale: en_US

@@ -2,11 +2,12 @@
 layout: post
 title: "page 5"
 date: 2014-05-22 18:24:47 -0700
-comments: true
+comments: false
+sharing: false
 categories: a-fistful-of-lunars
 comic: A Fistful of Lunars
-thumbnail: /images/comics/thumbs/a-fistful-of-lunars-page-5.jpg
+thumbnail: /images/comics/thumbs/a-fistful-of-lunars-page-5.png
 ---
 
-<img title ="Shamsee: A Fistful of Lunars page 5" alt="Shamsee: A Fistful of Lunars page 5" data-interchange="[/images/comics/a-fistful-of-lunars-page-5.jpg, (default)], [/images/comics/med/a-fistful-of-lunars-page-5.jpg, (med)], [/images/comics/small/a-fistful-of-lunars-page-5.jpg, (small)]">
-<noscript><img title ="Shamsee: A Fistful of Lunars page 5" alt="Shamsee: A Fistful of Lunars page 5" src="/images/comics/a-fistful-of-lunars-page-5.jpg"></noscript>
+<img title ="Shamsee: A Fistful of Lunars page 5" alt="Shamsee: A Fistful of Lunars page 5" data-interchange="[/images/comics/a-fistful-of-lunars-page-5.png, (default)], [/images/comics/small/a-fistful-of-lunars-page-5.png, (small)]">
+<noscript><img title ="Shamsee: A Fistful of Lunars page 5" alt="Shamsee: A Fistful of Lunars page 5" src="/images/comics/a-fistful-of-lunars-page-5.png"></noscript>
