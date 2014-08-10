@@ -70,14 +70,29 @@ default_asides: [custom/asides/update_schedule.html, custom/asides/kickstarter.h
 # Autogenerate thumbs for comics
 mini_magick:
 
+#Create Thumbs for the Archive Page
     gallery_1_thumbnail:
       source: images/comics/
       destination: ../source/images/comics/thumbs
       commands:
         - thumbnail: "182x280^"
-
-#Autogenerate thumbs for fanart        
+        
+# Create images for "small" screen breakpoints        
     gallery_2_thumbnail:
+      source: images/comics/
+      destination: ../source/images/comics/small
+      commands:
+        - thumbnail: "320x480^"
+
+# Create images for "medium" screen breakpoints
+    gallery_3_thumbnail:
+      source: images/comics/
+      destination: ../source/images/comics/med
+      commands:
+        - thumbnail: "720x1099^"
+        
+#Autogenerate thumbs for fanart        
+    gallery_4_thumbnail:
       source: images/fanart/
       destination: ../source/images/fanart/thumbs
       commands:
