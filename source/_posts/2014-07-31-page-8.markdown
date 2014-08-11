@@ -12,5 +12,4 @@ description:
 facebook_type: 
 facebook_image: /images/comics/thumbs/a-fistful-of-lunars-page-8.png
 ---
-<img title ="Shamsee: A Fistful of Lunars page 8" alt="Shamsee: A Fistful of Lunars page 8" data-interchange="[/images/comics/a-fistful-of-lunars-page-8.png, (default)], [/images/comics/small/a-fistful-of-lunars-page-8.png, (small)]">
-<noscript><img title ="Shamsee: A Fistful of Lunars page 8" alt="Shamsee: A Fistful of Lunars page 8" src="/images/comics/a-fistful-of-lunars-page-8.png"></noscript>
+{% img comic-page /images/comics/a-fistful-of-lunars-page-8.png 'A Fistful of Lunars Page 8' 'A Fistful of Lunars Page 8'%}
