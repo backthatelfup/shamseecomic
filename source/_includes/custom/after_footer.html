@@ -1,13 +1,4 @@
-<script>
-Modernizr.load([
-  {
-    test: Modernizr.hsla,
-    yep : ['//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js'],
-    nope: ['//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'],
-    load: ['//cdnjs.cloudflare.com/ajax/libs/foundation/5.2.1/js/foundation.min.js'],
-    complete : function () {
-      $(document).foundation();
-    }  
-  }
-</script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.2.1/js/foundation.min.js"></script>
 
+<script>$(document).foundation();</script>

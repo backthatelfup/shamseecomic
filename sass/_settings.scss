@@ -416,6 +416,10 @@ figcaption.fanart{
   font-weight: bold;
 }
 
+footer {
+  margin-top: 1.5em;
+}
+
 // Set breakpoint for top-bar so it uses mobile version for med. screens
 $topbar-breakpoint: 906px; // Change to 9999px for always mobile layout
 $topbar-media-query: "only screen and (min-width: #{$topbar-breakpoint})" !default;
