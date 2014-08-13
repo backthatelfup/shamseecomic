@@ -71,18 +71,13 @@ default_asides: [custom/asides/update_schedule.html, custom/asides/kickstarter.h
 mini_magick:
 
 #Create Thumbs for the Archive Page
-    gallery_1_thumbnail:
-      source: images/comics/
-      destination: ../source/images/comics/thumbs
-      commands:
-        - thumbnail: "182x280^"
-        
-# Create images for "small" screen breakpoints        
-    gallery_2_thumbnail:
-      source: images/comics/
-      destination: ../source/images/comics/small
-      commands:
-        - thumbnail: "450x689^"
+## Turned off for now. It works, but since I'm usign .png images now Imagemagick makes them fucking huge when resizing. :(
+#    gallery_1_thumbnail:
+#      source: images/comics/
+#      destination: ../source/images/comics/thumbs
+#      commands:
+#        - thumbnail: "182x280^"
+       
         
 #Autogenerate thumbs for fanart        
     gallery_4_thumbnail:
