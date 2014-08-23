@@ -6,10 +6,10 @@ comments: false
 sharing: false
 categories: a-fistful-of-lunars
 comic: A Fistful of Lunars
-thumbnail: /images/comics/thumbs/a-fistful-of-lunars-page-11.png
+thumbnail: /images/comics/thumbs/a-fistful-of-lunars-page-11.jpg
 keywords: 
 description: 
 facebook_type: 
-facebook_image: /images/comics/a-fistful-of-lunars-page-11.png
+facebook_image: /images/comics/a-fistful-of-lunars-page-11.jpg
 ---
-{% img comic-page /images/comics/a-fistful-of-lunars-page-11.png 'A Fistful of Lunars Page 11' 'A Fistful of Lunars Page 11'%}
+{% img comic-page /images/comics/a-fistful-of-lunars-page-11.jpg 'A Fistful of Lunars Page 11' 'A Fistful of Lunars Page 11'%}

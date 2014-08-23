@@ -72,11 +72,11 @@ mini_magick:
 
 #Create Thumbs for the Archive Page
 ## Turned off for now. It works, but since I'm usign .png images now Imagemagick makes them fucking huge when resizing. :(
-#    gallery_1_thumbnail:
-#      source: images/comics/
-#      destination: ../source/images/comics/thumbs
-#      commands:
-#        - thumbnail: "182x280^"
+    gallery_1_thumbnail:
+      source: images/comics/
+      destination: ../source/images/comics/thumbs
+      commands:
+        - thumbnail: "182x280^"
        
         
 #Autogenerate thumbs for fanart        
