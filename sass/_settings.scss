@@ -423,3 +423,25 @@ footer {
 // Set breakpoint for top-bar so it uses mobile version for med. screens
 $topbar-breakpoint: 906px; // Change to 9999px for always mobile layout
 $topbar-media-query: "only screen and (min-width: #{$topbar-breakpoint})" !default;
+
+// Style Google Docs contact form
+.ss-required-asterisk {
+  display: none;
+}
+
+.ss-q-short, .ss-q-long {
+  margin: 0px !important; 
+}
+
+.required-message {
+  color: #ccc;
+  margin-bottom: 1rem;
+}
+
+.ss-password-warning {
+  display: none; 
+}
+
+.ss-item.ss-navigate {
+float: right;
+}
