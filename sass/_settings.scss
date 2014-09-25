@@ -237,6 +237,8 @@ $progress-bar-border-radius: $global-radius;
 .updates {
   text-align: center;
   color: white;
+  margin-bottom: 13px;
+  margin-top: -25px;
 }
 
 .newsletter {
@@ -275,6 +277,14 @@ p.wip-status {
   margin-bottom: 10px;
 }
 
+.first-aside {
+  margin-top: 1em;
+}
+
+.last-aside {
+ margin-bottom: -10px;
+}
+
 // Universl use padding-bottom
 .pb10 {
   padding-bottom: 10px; 
@@ -291,6 +301,10 @@ p.wip-status {
 
 .ml-15 {
   margin-left: -15px; 
+}
+
+.mbn35 {
+  margin-bottom: -35px;
 }
 
 // Shrink the spacing between list items
