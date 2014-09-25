@@ -1,21 +1,14 @@
 ---
 layout: page-comic
 title: "About The Misadventures of Streetsman Shamsee"
-sidebar: false
+sidebar: true
 comments: false
 sharing: false
 footer: true
 ---
 
 <div class="row">
-  <div>
-   <div class="small-12 medium-4 text-center right">
-    <img src="/images/comics/thumbs/A-fistful-of-lunars.jpg" alt="A Fistful of Lunars cover">
-    <p>&nbsp;</p>
-   </div>
-  </div>
-
-   <div class="small-12 medium-8 spotlight-blurb right">
+   <div class="small-10 spotlight-blurb">
    <br />
    <h2>About the comic</h2>
 <h3 class="subheader">Updates every Wednesday</h3>
