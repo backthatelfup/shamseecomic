@@ -22,7 +22,7 @@ footer: true
 <p>A webcomic and graphic novel about unlucky rogues, conniving gangsters and an underworld full of big plans, bigger risks and bloody consequences.</p> 
 <p><em>Shamsee’s a small time thief short on common sense. When he crosses The Blighter, a powerful gangster, Shamsee finds himself in debt and in trouble. While calling upon his resources and stumbling across luck both good and bad, the criminal underworld threatens to come out from under him. Business associates, old flames and new flings all want something from Shamsee, and he’s willing to give: for the right price. Songs are sung, jobs are blown and blood is spilled in the quest for A FISTFUL OF LUNARS.</em></p>
 <p>Shamsee first appeared in Tristan's 'Valley of Ten Crescents' fantasy novels.</p>
-<p><strong>The first chapter, 'A Fistful of Lunars' is 105 pages long and is completely finished. it'll be available for purchase in October or you can keep coming back every week for the newest page.</strong></p>
+<p><strong>The first chapter, 'A Fistful of Lunars' is 125 pages long and is completely finished. You can <a href="https://www.gumroad.com/shamsee" target="_blank">buy it now</a> or you can keep coming back every week for the newest page.</strong></p>
 
 </div>
 
