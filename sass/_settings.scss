@@ -11,6 +11,7 @@ $primary-color: #da6c4b !default; /* #008CBA blue by default */
 $secondary-color: #363636 !default; /* #e7e7e7 */
 $tertiary-color: #6b6b6b !default;
 $fourth-color: #bed477 !default;
+$fifth-color: #76a6a6 !default;
 $body-bg: #eee !default; /* white by default */
 $bottom-border-color: #cccccc;
 $comic-color: #da6c4b !default;
@@ -70,6 +71,18 @@ $progress-bar-border-radius: $global-radius;
 
 .primary {
   background-color: $primary-color;
+}
+
+.secondary {
+ background-color: $secondary-color; 
+}
+
+.tertiary {
+ background-color: $tertiary-color; 
+}
+
+.fifth {
+ background-color: $fifth-color; 
 }
 
 // -- topbar / navigation

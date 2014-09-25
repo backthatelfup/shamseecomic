@@ -438,3 +438,10 @@ code{
   margin-top: -0.125rem;
   background: invisible; //this is for the little triangle dropdown kajiger
 }
+
+// Creates extra large button
+.xlarge {
+  @include button($padding: $button-lrg, $bg: $primary-color, $radius: true, $full-width: false);
+  width: 100%;
+  margin-top: 20px;
+}
