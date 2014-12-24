@@ -1,0 +1,15 @@
+---
+layout: post
+title: "page 29"
+date: 2014-12-24 07:23:001 -0700
+comments: false
+sharing: false
+categories: a-fistful-of-lunars
+comic: A Fistful of Lunars
+thumbnail: /images/comics/thumbs/a-fistful-of-lunars-page-29.jpg
+keywords: Shamsee, A Fistful of Lunars, Tristan J. Tarwater, Adrian Ricker
+description: Shamsee A Fistful of Lunars - page 29
+facebook_type: 
+facebook_image: /images/comics/a-fistful-of-lunars-page-29.jpg
+---
+{% img comic-page /images/comics/a-fistful-of-lunars-page-29.jpg 'A Fistful of Lunars Page 29' 'A Fistful of Lunars Page 29'%}
