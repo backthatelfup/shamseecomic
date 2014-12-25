@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Holiday Surprise"
+date: 2014-12-25 07:23:001 -0700
+comments: false
+sharing: false
+categories: a-fistful-of-lunars
+comic: A Fistful of Lunars
+thumbnail: /images/comics/thumbs/holiday.jpg
+keywords: Shamsee, A Fistful of Lunars, Tristan J. Tarwater, Adrian Ricker
+description: Shamsee A Fistful of Lunars - Holiday Surprise
+facebook_type: 
+facebook_image: /images/comics/holiday.jpg
+---
+{% img comic-page /images/comics/holiday.jpg 'A Fistful of Lunars Holiday Surprise' 'A Fistful of Lunars Holiday Surprise'%}
