@@ -8,6 +8,13 @@
   margin-right: auto;
 }
 
+// Styling for mobile devices
+@media screen and (max-width: 768px) {
+  .wrap {
+    margin-bottom: -$footer-height * 2.8; 
+  }
+}
+
 .wrap:after {
   content: "";
   display: block;
@@ -71,8 +78,21 @@
   background: $footer-color;
 }
 
+// Styling for mobile devices
+@media screen and (max-width: 768px) {
+  .site-footer, .wrap:after {
+    height: $footer-height * 2.8; 
+  }
+}
+
 // Asides
 .updates {
   text-align: center;
   color: white;
+}
+
+// Copyright
+.copyright {
+  font-size: $small-font-size;
+  margin: 10px 0 0 0;
 }
