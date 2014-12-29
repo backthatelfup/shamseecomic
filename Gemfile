@@ -1,24 +1,9 @@
 source "https://rubygems.org"
-
-group :development do
-  gem 'rake', '~> 10.0'
-  gem 'jekyll', '~> 2.0'
-  gem 'jekyll-page-hooks', '~> 1.2'
-  gem 'jekyll-date-format', '~> 1.0'
-  gem 'jekyll-sitemap'
-  gem 'rdiscount', '~> 2.0'
-  gem 'RedCloth', '~> 4.2.9'
-  gem 'haml', '~> 4.0'
-  gem 'compass', '~> 0.12.2'
-  gem 'sass-globbing', '~> 1.0.0'
-  gem 'rubypants', '~> 0.2.0'
-  gem 'rb-fsevent', '~> 0.9'
-  gem 'stringex', '~> 1.4.0'
-end
-
-gem 'sinatra', '~> 1.4.2'
-gem 'mini_magick'
-gem 'yui-compressor', '~> 0.12.0'
-gem 'html_compressor', '~> 0.0.3'
-gem 'libxml-xmlrpc'
-gem 'nokogiri'
+gem 'jekyll', '~> 2.5.2'	#Needed since this is a theme for Jekyll
+gem "rake" 			#Used to simplify building/deploying tasks
+gem "s3_website"		#Used to deploy site to AWS S3
+gem 'mini_magick'		#Used by a raketask to compress/optimize images at build time
+gem 'html_compressor'		#Used to minify our HTML at build time
+gem 'sass', '~> 3.2.19'		#Zurb breaks with any sass above this for now
+gem 'image_optim'		#Used to optimize our images
+gem 'image_optim_pack'		#The binaries required for image_optim

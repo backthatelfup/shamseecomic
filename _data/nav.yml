@@ -1,0 +1,20 @@
+- title: "home"
+  href: "/"
+
+- title: "characters"
+  href: "/characters/"
+
+- title: "archives"
+  href: "/a-fistful-of-lunars/"
+  
+- title: "fanart"
+  href: "/fanart/"
+
+- title: "about"
+  href: "/about/"
+  
+- title: "contact"
+  href: "/contact/"
+  
+- title: "store"
+  external: "https://www.gumroad.com/shamsee"

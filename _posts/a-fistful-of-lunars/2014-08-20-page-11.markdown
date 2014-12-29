@@ -1,0 +1,12 @@
+---
+layout: post
+title: "page 11"
+date: 2014-08-20 07:03:037 -0700
+categories: a-fistful-of-lunars
+thumbnail: /images/comics/thumbs/a-fistful-of-lunars-page-11.jpg
+keywords: 
+description: 
+facebook_type: 
+facebook_image: /images/comics/a-fistful-of-lunars-page-11.jpg
+---
+{% include figure.html src="a-fistful-of-lunars-page-11.jpg" alt="A Fistful of Lunars Page 11" %}
