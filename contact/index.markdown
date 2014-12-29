@@ -11,7 +11,7 @@ title: contact
 	<input type='text' name='Name' placeholder="Name" required />
 	<input type='text' name='Email' placeholder="Email" required />
 	<input type='text' name='Subject' placeholder="Subject" required />
-	<textarea name='Message' rows="8" cols="0" placeholder="Message" required></textarea>
+	<textarea name='Message' rows="8" cols="1" placeholder="Message" required></textarea>
 	<input type='submit' value='Send' class="submit" />
       </form>
   </div>
