@@ -5,7 +5,7 @@ date: 2014-08-06 09:09:01 -0700
 categories: a-fistful-of-lunars
 thumbnail: /images/comics/thumbs/a-fistful-of-lunars-page-9.jpg
 keywords: 
-description: 
+description: Shamsee A Fistful of Lunars - Page 9
 facebook_type: 
 facebook_image: /images/comics/thumbs/a-fistful-of-lunars-page-9.jpg
 ---
