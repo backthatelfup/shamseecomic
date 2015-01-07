@@ -72,10 +72,11 @@
 }
 
 .site-footer, .wrap:after {
-  height: $footer-height; 
+  height: $footer-height;
 }
 .site-footer {
   background: $footer-color;
+  line-height: $footer-height;
 }
 
 // Styling for mobile devices
