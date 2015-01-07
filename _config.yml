@@ -21,8 +21,8 @@ kramdown:
 destination: _site
 
 # Compress our Css
-#sass:
-#    style: :compressed
+sass:
+    style: :compressed
 
 permalink: /:categories/:title/
 
