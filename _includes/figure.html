@@ -1,10 +1,10 @@
 {% include asides/update_schedule.html %}
 <figure>
   {% if page.next.url %}
-    <a href="{{ site.baseurl }}{{ page.next.url }}">
-      <img src="{{ site.baseurl }}/images/comics/{{ include.src }}" srcset="{{ site.baseurl }}/images/comics/small/{{ include.src }} 320w, {{ site.baseurl }}/images/comics/{{ include.src }} 1025w" alt="{{ include.alt }}" title="{{ include.alt }}" class="center">
+    <a href="{{ site.url }}{{ page.next.url }}">
+      <img src="{{ site.url }}/images/comics/{{ include.src }}" srcset="{{ site.url }}/images/comics/small/{{ include.src }} 320w, {{ site.url }}/images/comics/{{ include.src }} 1025w" alt="{{ include.alt }}" title="{{ include.alt }}" class="center">
     </a>
   {% else %}
-       <img src="{{ site.baseurl }}/images/comics/{{ include.src }}" srcset="{{ site.baseurl }}/images/comics/small/{{ include.src }} 320w, {{ site.baseurl }}/images/comics/{{ include.src }} 1025w" alt="{{ include.alt }}" title="{{ include.alt }}" class="center">
+       <img src="{{ site.url }}/images/comics/{{ include.src }}" srcset="{{ site.url }}/images/comics/small/{{ include.src }} 320w, {{ site.url }}/images/comics/{{ include.src }} 1025w" alt="{{ include.alt }}" title="{{ include.alt }}" class="center">
   {% endif %}
 </figure>

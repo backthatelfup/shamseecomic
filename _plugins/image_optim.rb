@@ -17,7 +17,7 @@ module Jekyll
 	  end
 
 	  image_optim = ImageOptim.new(:pngout => false, :svgo => false, :verbose => false)
-    Dir.glob('images/**/*.{gif,jpeg,jpg,png}') do |rb_file|
+    Dir.glob('images/**/*.{gif,jpeg,jpg}') do |rb_file|
       # Get the file modification time
       cmtime = File.mtime(rb_file)
 

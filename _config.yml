@@ -4,11 +4,10 @@ author: Tristan J. Tarwater & Adrian Ricker
 email: 
 
 keywords: webcomic, comic, fantasy, comedy, slice of life, Shamsee
-description: > # this means to ignore newlines until "baseurl:"
-  A weekly fantasy comic about Shamsee and the thieves, rogues, and mischief he finds in the Valley of Ten Crescents.
+description: A weekly fantasy comic about Shamsee and the thieves, rogues, and mischief he finds in the Valley of Ten Crescents.
 
-baseurl: http://www.shamseecomic.com
-url: /
+baseurl: 
+url: http://www.shamseecomic.com
 
 # Exclude our ruby stuff
 exclude: [.bundle, bin, vendor, Gemfile, Gemfile.lock, Rakefile, s3_website.yml, .last_optimized]
