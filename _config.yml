@@ -8,6 +8,7 @@ description: A weekly fantasy comic about Shamsee and the thieves, rogues, and m
 
 baseurl: 
 url: http://www.shamseecomic.com
+#url: http://localhost:4000
 
 # Exclude our ruby stuff
 exclude: [.bundle, bin, vendor, Gemfile, Gemfile.lock, Rakefile, s3_website.yml, .last_optimized]
