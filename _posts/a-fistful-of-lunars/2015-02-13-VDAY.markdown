@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Valentines Day Song"
+categories: a-fistful-of-lunars
+date: 2015-02-13 07:23:001 -0700
+thumbnail: /images/comics/thumbs/Valentines-Day-Special.jpg
+keywords: Shamsee, A Fistful of Lunars, Tristan J. Tarwater, Adrian Ricker
+description: Shamsee A Fistful of Lunars - Valentines day song - My Lover's Hair
+facebook_type: 
+facebook_image: /images/comics/Valentines-Day-Special.jpg
+---
+{% include figure.html src="Valentines-Day-Special.jpg" alt="Valentines Day Song" %}
