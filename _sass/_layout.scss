@@ -1,3 +1,22 @@
+// Ads
+.top-ad {
+  background-color: #76a6a6;
+}
+
+.leaderboard {
+  margin-top: 22px;
+  
+  @media screen and (max-width: 768px) {
+    margin-top: 0px; 
+  }
+
+}
+
+.logo {
+  float: left;
+  margin: 0;
+}
+
 // Wrap
 .wrap {
   max-width: 1920px;
