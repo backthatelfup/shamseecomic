@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "V-Day Song"
+title: "Vday Song"
 categories: a-fistful-of-lunars
 date: 2015-02-13 07:23:001 -0700
 thumbnail: /images/comics/thumbs/Valentines-Day-Special.jpg
