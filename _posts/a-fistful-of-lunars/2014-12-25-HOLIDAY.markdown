@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Holiday Surprise"
+title: "Holiday"
 categories: a-fistful-of-lunars
 date: 2014-12-25 07:23:001 -0700
 thumbnail: /images/comics/thumbs/holiday.jpg
