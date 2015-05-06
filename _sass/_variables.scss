@@ -26,7 +26,7 @@ $navbar-font-size: 13px;
 $navbar-font-family: "Open Sans", Helvetica, Arial, sans-serif;
 
 // Socials Navbar Settings
-$socials-font-color: $secondary-color;
+$socials-font-color: lighten($primary-color, 25%);
 $socials-font-size: 1.5em;
 
 // Comic Settings
