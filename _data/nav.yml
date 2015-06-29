@@ -17,8 +17,4 @@
   href: "/contact/"
  
 - title: "store"
-  external-subcategories:
-    - subtitle: "Gumroad"
-      subhref: "https://www.gumroad.com/shamsee"
-    - subtitle: "Amazon"
-      subhref: "http://www.amazon.com/dp/B00NTC5CWM/?tag=bathelup-20"
+  href: "/store/"

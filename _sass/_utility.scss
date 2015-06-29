@@ -32,3 +32,68 @@
 .pad-lr-15 {
   padding: 0 15px; 
 }
+
+.white {
+  background-color: #fff; 
+}
+
+  [class^="icon-"].sales, [class*=" icon-"].sales:hover{
+	-moz-transition: all .2s ease-in;
+	-o-transition: all .2s ease-in;
+	-webkit-transition: all .2s ease-in;
+	transition: all .2s ease-in;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.sales {
+  padding: 10px;
+  border: solid 2px;
+  font-size: 2.5em;
+  line-height: 2.5em;
+  margin: 5px;
+  
+  @media screen and (max-width: 960px) {
+      border: none;
+      margin: 0px;
+        font-size: 1em;
+  line-height: 3em;
+  }
+
+}
+.comixology {
+    color: white;
+    background-color: #00b491;
+  &:hover {
+    color: #00b491;
+    background-color: white;
+  }
+}
+
+.amazon {
+  color: white;
+    background-color: #e47911;
+  &:hover {
+    color: #e47911;
+    background-color: white;
+  }
+}
+
+.drivethru {
+    color: white;
+    background-color: #98b5dc;
+  &:hover {
+    color: #98b5dc;
+    background-color: white;
+  }
+}
+
+.gumroad {
+      color: white;
+    background-color: #36a9ae;
+  &:hover {
+    color: #36a9ae;
+    background-color: white;
+  }
+}
