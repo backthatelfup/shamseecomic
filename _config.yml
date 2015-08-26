@@ -26,6 +26,9 @@ sass:
 
 permalink: /:categories/:title/
 
+# Set this to false to prevent Jekyll from building pages with a future date.
+future: false
+
 #################################################
 ####CUSTOM
 
