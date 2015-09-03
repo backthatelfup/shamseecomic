@@ -1,0 +1,12 @@
+---
+layout: post
+title: "pagina 14"
+date: 2014-09-10 07:12:037 -0700
+categories: por-un-punado-de-lunares
+thumbnail: /images/comics/thumbs/por-un-punado-de-lunares-pagina-14.jpg
+keywords: 
+description: Shamsee Por un Punado de Lunares - Page 14
+facebook_type: 
+facebook_image: /images/comics/por-un-punado-de-lunares-pagina-14.jpg
+---
+{% include figure.html src="por-un-punado-de-lunares-pagina-14.jpg" alt="Por un Punado de Lunares Page 14" %}

@@ -1,0 +1,12 @@
+---
+layout: post
+title: "pagina 57"
+date: 2015-06-18 07:23:001 -0700
+categories: por-un-punado-de-lunares
+thumbnail: /images/comics/thumbs/por-un-punado-de-lunares-pagina-57.jpg
+keywords: Shamsee, Por un Punado de Lunares, Tristan J. Tarwater, Adrian Ricker
+description: Shamsee Por un Punado de Lunares - pagina 57
+facebook_type: 
+facebook_image: /images/comics/por-un-punado-de-lunares-pagina-57.jpg
+---
+{% include figure.html src="por-un-punado-de-lunares-pagina-57.jpg" alt="Por un Punado de Lunares Page 57" %}
