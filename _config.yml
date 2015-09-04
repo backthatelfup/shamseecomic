@@ -1,5 +1,5 @@
 # Site settings
-title: Shamsee Comic
+name: Shamsee Comic
 author: Tristan J. Tarwater & Adrian Ricker
 email: 
 
@@ -20,6 +20,9 @@ kramdown:
 
 destination: _site
 
+gems:
+  - jekyll-sitemap
+
 # Compress our Css
 sass:
     style: :compressed
@@ -29,6 +32,11 @@ permalink: /:categories/:title/
 # Set this to false to prevent Jekyll from building pages with a future date.
 future: false
 
+
+# Default templates for posts and pages
+# Found in _templates/
+post_layout: post
+page_layout: page
 #################################################
 ####CUSTOM
 

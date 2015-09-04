@@ -1,0 +1,13 @@
+---
+layout: post
+title: "pagina 44"
+date: 2015-04-08 07:23:001 -0700
+categories: por-un-punado-de-lunares
+thumbnail: /images/comics/thumbs/por-un-punado-de-lunares-pagina-44.jpg
+keywords: Shamsee, Por un Punado de Lunares, Tristan J. Tarwater, Adrian Ricker
+description: Shamsee Por un Punado de Lunares - pagina 44
+facebook_type: 
+facebook_image: /images/comics/por-un-punado-de-lunares-pagina-44.jpg
+language: es
+---
+{% include figure.html src="por-un-punado-de-lunares-pagina-44.jpg" alt="Por un Punado de Lunares Pagina 44" %}
