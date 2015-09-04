@@ -1,7 +1,7 @@
 {% include asides/update_schedule.html %}
 <figure>
-  {% if page.next.url %}
-    <a href="{{ site.url }}{{ page.next.url }}">
+  {% if page.previous_in_category.url %}
+    <a href="{{ site.url }}{{ page.previous_in_category.url }}">
       <img src="{{ site.url }}/images/comics/{{ include.src }}" srcset="{{ site.url }}/images/comics/small/{{ include.src }} 320w, {{ site.url }}/images/comics/{{ include.src }} 1025w" alt="{{ include.alt }}" title="{{ include.alt }}" class="center">
     </a>
   {% else %}

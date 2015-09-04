@@ -5,9 +5,10 @@ date: 2014-09-16 07:02:012 -0700
 categories: por-un-punado-de-lunares
 thumbnail: /images/comics/thumbs/por-un-punado-de-lunares-pagina-15.jpg
 keywords: Shamsee, Por un Punado de Lunares, Tristan J. Tarwater, Adrian Ricker
-description: Shamsee Por un Punado de Lunares - Page 15
+description: Shamsee Por un Punado de Lunares - Pagina 15
 facebook_type: 
 facebook_image: /images/comics/por-un-punado-de-lunares-pagina-15.jpg
+language: es
 ---
 
-{% include figure.html src="por-un-punado-de-lunares-pagina-15.jpg" alt="Por un Punado de Lunares Page 15" %}
+{% include figure.html src="por-un-punado-de-lunares-pagina-15.jpg" alt="Por un Punado de Lunares Pagina 15" %}

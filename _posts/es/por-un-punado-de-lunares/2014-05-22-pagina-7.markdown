@@ -5,9 +5,10 @@ date: 2014-07-30 18:26:47 -0700
 categories: por-un-punado-de-lunares
 thumbnail: /images/comics/thumbs/por-un-punado-de-lunares-pagina-7.jpg
 keywords: 
-description: Shamsee Por un Punado de Lunares - Page 7
+description: Shamsee Por un Punado de Lunares - Pagina 7
 facebook_type: 
 facebook_image: /images/comics/por-un-punado-de-lunares-pagina-7.jpg
+language: es
 ---
 
-{% include figure.html src="por-un-punado-de-lunares-pagina-7.jpg" alt="Por un Punado de Lunares Page 7" %}
+{% include figure.html src="por-un-punado-de-lunares-pagina-7.jpg" alt="Por un Punado de Lunares Pagina 7" %}

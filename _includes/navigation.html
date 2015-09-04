@@ -1,3 +1,5 @@
+{% if page.language != 'es' %}
+
 <nav class="navbar">
   <nav class="row">
     <div id="nav">
@@ -40,8 +42,66 @@
       <ul class="columns medium-2 right primary-nav">
 	{% for socials in site.data.socials %}
 	  <li class="right"><a href="{{ socials.href }}"><span class="icon-{{ socials.title }} socials"></span></a></li>
+	    {% if socials.title == 'Español' %}
+	    <li class="right"><a href="{{ site.url }}{{ socials.href }}">{{ socials.title }}</a></li>
+	    {% endif %}
 	{% endfor %}
       </ul>
     </div>
   </nav>
 </nav>
+
+{% else %}
+
+<nav class="navbar">
+  <nav class="row">
+    <div id="nav">
+      <ul class="columns medium-10 left primary-nav">
+
+	<li id="toggleMenu"><a href="#nav">ShamseeComic.com</a></li>
+	<li id="hideMenu"><a href="#toggleMenu">ShamseeComic.com</a></li>
+	
+	{% for nav in site.data.es-nav %}
+	  {% if nav.subcategories != null %}
+	    <li class="dropdown">
+	      <a href="{{ site.url }}{{ nav.url }}">{{ nav.title }}</a>
+		<ul>
+		  {% for subcategory in nav.subcategories %}
+		    <li><a href="{{ site.url }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
+		  {% endfor %}
+		</ul>
+	    </li>
+	    {% elsif nav.external-subcategories != null %}
+	    <li class="dropdown">
+	      <a href="{{ site.url }}{{ nav.url }}">{{ nav.title }}</a>
+		<ul>
+		  {% for subcategory in nav.external-subcategories %}
+		    <li><a href="{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
+		  {% endfor %}
+		</ul>
+	    </li>
+		{% elsif nav.title == page.title %}
+		  <li class="active"><a href="{{ nav.href }}">{{ nav.title }}</a></li>
+		{% else %}
+		  {% if nav.href != null %}
+		  <li><a href="{{ site.url }}{{ nav.href }}">{{ nav.title }}</a></li>
+		  {% else %}
+		  <li><a href="{{ nav.external }}">{{ nav.title }}</a></li>
+		  {% endif %}
+	  {% endif %}
+	{% endfor %}
+      </ul>
+
+      <ul class="columns medium-2 right primary-nav">
+	{% for socials in site.data.es-socials %}
+	  <li class="right"><a href="{{ socials.href }}"><span class="icon-{{ socials.title }} socials"></span></a></li>
+	    {% if socials.title == 'English' %}
+	    <li class="right"><a href="{{ site.url }}{{ socials.href }}">{{ socials.title }}</a></li>
+	    {% endif %}
+	{% endfor %}
+      </ul>
+    </div>
+  </nav>
+</nav>
+
+{% endif %}

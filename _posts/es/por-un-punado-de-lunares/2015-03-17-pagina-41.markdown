@@ -8,5 +8,6 @@ keywords: Shamsee, Por un Punado de Lunares, Tristan J. Tarwater, Adrian Ricker
 description: Shamsee Por un Punado de Lunares - pagina 41
 facebook_type: 
 facebook_image: /images/comics/por-un-punado-de-lunares-pagina-41.jpg
+language: es
 ---
-{% include figure.html src="por-un-punado-de-lunares-pagina-41.jpg" alt="Por un Punado de Lunares Page 41" %}
+{% include figure.html src="por-un-punado-de-lunares-pagina-41.jpg" alt="Por un Punado de Lunares Pagina 41" %}
