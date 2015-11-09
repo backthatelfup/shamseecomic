@@ -6,7 +6,7 @@ sidebar: false
 {% if page.language != 'es' %}
 <div class="row">
   <div>
-  {% if page.sidebar != false %}
+  {% if page.sidebar == "true" %}
     <article class="columns small-12 large-9 comic-page">
   {% else %}
     <article class="columns small-12 large-offset-1 large-10 comic-page">
@@ -82,7 +82,7 @@ sidebar: false
     </article>
   </div>
 
-  {% if page.sidebar != false %}
+  {% if page.sidebar == "true" %}
     {% include asides/recent_posts.html %}
   {% endif %}
 </div>
@@ -91,7 +91,7 @@ sidebar: false
 
 <div class="row">
   <div>
-  {% if page.sidebar != false %}
+  {% if page.sidebar == "true" %}
     <article class="columns small-12 large-9 comic-page">
   {% else %}
     <article class="columns small-12 large-offset-1 large-10 comic-page">
@@ -167,7 +167,7 @@ sidebar: false
     </article>
   </div>
 
-  {% if page.sidebar != false %}
+  {% if page.sidebar == "true" %}
     {% include asides/recent_posts.html %}
   {% endif %}
 </div>

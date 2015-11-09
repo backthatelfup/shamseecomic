@@ -9,7 +9,7 @@ require "html_compressor"
 
 desc "build the site"
 task :build do
-  system "bundle exec jekyll build"
+  system "bundle exec jekyll build --incremental"
   system "bundle exec rake minify_html" #Minify our HTML
   system "bundle exec rake optimizeimages" # Compress/optimize our images
 end
@@ -48,7 +48,6 @@ end
 
 desc "Optimize GIF, JPG and PNG files"
 task :optimizeimages => [ 'optimizeimages:find_tools', 'optimizeimages:run' ]
-
 namespace :optimizeimages do
   desc "Test for presence of image optimization tools in the command path"
   task :find_tools do

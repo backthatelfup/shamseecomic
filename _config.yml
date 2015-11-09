@@ -20,8 +20,8 @@ kramdown:
 
 destination: _site
 
-gems:
-  - jekyll-sitemap
+#gems:
+#  - jekyll-sitemap #updating to Jekyll 3.0 made this plugin stop working
 
 # Compress our Css
 sass:
