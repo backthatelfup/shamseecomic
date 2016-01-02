@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Happy New Year!"
+date: 2016-01-01 07:23:001 -0700
+categories: a-fistful-of-lunars
+thumbnail: /images/comics/thumbs/Shamsee-new-year.jpg
+keywords: Shamsee, A Fistful of Lunars, Tristan J. Tarwater, Adrian Ricker
+description: Shamsee - Getting drunk for new years!
+facebook_type: 
+facebook_image: /images/comics/Shamsee-new-year.jpg
+---
+{% include figure.html src="Shamsee-new-year.jpg" alt="Shamsee getting drunk for new years!" %}

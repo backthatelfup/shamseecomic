@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Happy New Year!"
+date: 2016-01-01 07:23:001 -0700 
+categories: por-un-punado-de-lunares
+thumbnail: /images/comics/thumbs/Shamsee-new-year.jpg
+keywords: Shamsee, Por un Punado de Lunares, Tristan J. Tarwater, Adrian Ricker
+description: Shamsee Por un Punado de Lunares - Happy New Year!
+facebook_type: 
+facebook_image: /images/comics/Shamsee-new-year.jpg
+language: es
+---
+{% include figure.html src="Shamsee-new-year.jpg" alt="Happy New Year!" %}
