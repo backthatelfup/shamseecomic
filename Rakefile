@@ -62,9 +62,9 @@ namespace :optimizeimages do
     RakeFileUtils.verbose(false)
     start_time = Time.now
 
-    file_list = FileList.new '_site/**/*.{gif,jpeg,jpg,png}'
+    file_list = FileList.new 'images/*.{gif,jpeg,jpg,png}'
 
-    last_optimized_path = '_site/.last_optimized'
+    last_optimized_path = 'images/.last_optimized'
     if File.exists? last_optimized_path
       last_optimized = File.new last_optimized_path
       file_list.exclude do |f|
