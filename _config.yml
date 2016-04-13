@@ -8,7 +8,7 @@ description: A weekly fantasy comic about Shamsee and the thieves, rogues, and m
 
 baseurl: 
 url: https://www.shamseecomic.com
-unencrypted: http://www.shamseecomic.com
+cloudfront: http://d1bcyh2tep7962.cloudfront.net
 #url: http://localhost:4000
 
 # Exclude our ruby stuff
