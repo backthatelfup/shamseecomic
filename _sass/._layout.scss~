@@ -96,7 +96,7 @@
 article p{
   background-color: #EFEFEF;
   margin: 10px 0px 0px 0px;
-  padding: 10px;
+  padding-left: 10px;
 }
 
 // Footer
