@@ -1,0 +1,12 @@
+---
+layout: lone-idiot-and-cub
+title: "Lone Idiot and Cub page 001"
+date: 2016-06-01 07:23:001 -0700
+categories: lone-idiot-and-cub
+thumbnail: /images/comics/lone-idiot-and-cub/thumbs/lone-idiot-and-cub-page-001.jpg
+keywords: Shamsee, Lone Idiot and Cub, Tristan J. Tarwater, Adrian Ricker
+description: Shamsee Lone Idiot and Cub - page 001
+facebook_type: 
+facebook_image: /images/comics/lone-idiot-and-cub/lone-idiot-and-cub-page-001.jpg
+---
+{% include figure.html src="lone-idiot-and-cub/lone-idiot-and-cub-page-001.jpg" alt="Lone Idiot and Cub Page 001" %}

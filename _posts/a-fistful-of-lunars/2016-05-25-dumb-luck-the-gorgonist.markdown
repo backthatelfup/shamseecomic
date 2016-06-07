@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dumb Luck - by the Gorgonist"
+title: "By the Gorgonist"
 date: 2016-05-25 07:23:001 -0700
 categories: a-fistful-of-lunars
 thumbnail: /images/comics/thumbs/DumbLuckTheGorgonist.jpg
