@@ -5,3 +5,4 @@ bin
 vendor/ruby
 Gemfile.lock
 s3_website.yml
+.*~

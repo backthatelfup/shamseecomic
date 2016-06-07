@@ -7,9 +7,9 @@ keywords: webcomic, comic, fantasy, comedy, slice of life, Shamsee
 description: A weekly fantasy comic about Shamsee and the thieves, rogues, and mischief he finds in the Valley of Ten Crescents.
 
 baseurl: 
-#url: https://www.shamseecomic.com
+url: https://www.shamseecomic.com
 cloudfront: http://d1bcyh2tep7962.cloudfront.net
-url: http://localhost:4000
+#url: http://localhost:4000
 
 # Exclude our ruby stuff
 exclude: [.bundle, bin, vendor, Gemfile, Gemfile.lock, Rakefile, s3_website.yml, .last_optimized]
