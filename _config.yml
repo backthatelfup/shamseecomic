@@ -64,6 +64,18 @@ mini_magick:
       source: images/comics/
       destination: /images/comics/small
       resize: "350x535^"
+      
+#Create Thumbs for the Lone Idiot and Cub Archive Page
+    thumbnail:
+      source: images/comics/lone-idiot-and-cub/
+      destination: /images/comics/lone-idiot-and-cub/thumbs
+      resize: "182x280^"
+
+#Autogenerate smaller size for small screens       
+    small:
+      source: images/comics/lone-idiot-and-cub/
+      destination: /images/comics/lone-idiot-and-cub/small
+      resize: "350x535^"
 
 #Thumbs for fanart
     fanart:

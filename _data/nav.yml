@@ -5,7 +5,11 @@
   href: "/characters/"
 
 - title: "archives"
-  href: "/a-fistful-of-lunars/"
+  subcategories:
+    - subtitle: "1 - A Fistful of Lunars"
+      subhref: "/a-fistful-of-lunars/"
+    - subtitle: "2 - Lone Idiot and Cub"
+      subhref: "/lone-idiot-and-cub/"
   
 - title: "fanart"
   href: "/fanart/"
